@@ -20,7 +20,7 @@ try{
         echo 'Deployed to prod'
     }
     
-    stage('Email'){
+    stage('Email1'){
      body_msg = ''' Jenkins Job success 
    
     '''+"$JOB_URL"+''' 
